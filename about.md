@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "About Me"
-css: ["about.css", "animate.css", "morphext.css"]
-js: ["morphext.min.js", "about.js"]
+title: About
+permalink: /about/
 ---
-{% include about.html %}
+
+[Jekyll Writer](http://www.jekyllwriter.com) is a Jekyll blog site writer. You may download Jekyll Writer for Windows, OS X and Linux from our [official website](http://www.jekyllwriter.com).
