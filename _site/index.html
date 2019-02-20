@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>张博文</title>
+  <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+    body {
+        background: #f5f5f5;
+        /*border-top: 4px solid salmon;*/
+        font-family: "Microsoft Yahei", sans-serif,arial;
+        padding-top: 30px;
+    }
+    .my-avatar {
+      display: block;
+      width: 300px;
+      height: 300px;
+      margin: 0 auto;
+      opacity: 0;
+      animation: fadeIn 2s 800ms forwards;
+    }
+    .my-name {
+      height: 100px;
+      font-size: 48px;
+      line-height: 100px;
+      text-align: center;
+      letter-spacing: 15px;
+      opacity: 0;
+      animation: fadeIn 2s 1000ms forwards;
+    }
+    .info {
+      text-align: center;
+      font-size: 16px;
+      color: gray;
+      opacity: 0;
+      animation: fadeIn 2s 1200ms forwards;
+    }
+    .job-content {
+        width: 100%;
+        text-align: center;
+        height: 100px;
+        letter-spacing: 1.2px;
+        display: inline-block;
+        line-height: 100px;
+        opacity: 0;
+        animation: fadeIn 2s 1400ms forwards;
+    }
+    .how-to-contact {
+        width: 100%;
+        text-align: center;
+        height:60px;
+        font-size: 13px;
+        line-height: 30px;
+        color: #292b36;
+        opacity: 0;
+        animation: fadeIn 2s 1700ms forwards;
+    }
+    .social-network {
+        width: 100%;
+        text-align: center;
+        font-size: 26px;
+        opacity: 0;
+        animation: fadeIn 2s 2000ms forwards;
+    }
+
+    .fa-envelope {
+        color: #004b8b;
+    }
+    @-webkit-keyframes slideDown {
+      0% {
+          -webkit-margin-top: -62px;
+      }
+      90% {
+          -webkit-margin-top: -5px;
+      }
+      100% {
+          -webkit-margin-top: 0px;
+      }
+    }
+    @-moz-keyframes slide-down {
+      0% {
+      }
+      90% {
+      }
+      100% {
+      }
+    }
+    @-o-keyframes slide-down {
+      0% {
+      }
+      90% {
+      }
+      100% {
+      }
+    }
+    @-ms-keyframes slide-down {
+      0% {
+      }
+      90% {
+      }
+      100% {
+      }
+    }
+    @keyframes slide-down {
+      0% {
+          margin-top: -62px;
+      }
+      90% {
+          margin-top: -5px;
+      }
+      100% {
+          margin-top: 0px;
+      }
+    }
+    @-webkit-keyframes fadeIn {
+      0% {
+          opacity: 0;
+      }
+      100% {
+          opacity: 1;
+      }
+    }
+    @-moz-keyframes fadeIn {
+      0% {
+          opacity: 0;
+      }
+      100% {
+          opacity: 1;
+      }
+    }
+    @-o-keyframes fadeIn {
+      0% {
+          opacity: 0;
+      }
+      100% {
+          opacity: 1;
+      }
+    }
+    @-ms-keyframes fadeIn {
+      0% {
+          opacity: 0;
+      }
+      100% {
+          opacity: 1;
+      }
+    }
+    @keyframes fadeIn {
+      0% {
+          opacity: 0;
+      }
+      100% {
+          opacity: 1;
+      }
+    }
+
+
+  </style>
+</head>
+
+<body>
+  <img src="img/img.jpg" alt="" class = "my-avatar">
+  <h1 class = "my-name">张博文</h1>
+  <p class = "info">日语 & 前端工程师</p>
+  <p class="job-content">致力于开发基于PC以及移动设备的网页程序。</p>
+  <p class="how-to-contact">您可以通过以下方式与我取得联系</p>
+  <p class="social-network"><a href="mailto:bw@aumc.com"><i class="fa fa-envelope"></i></a></p>
+</body>
+
+</html>
+
