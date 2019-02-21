@@ -1,7 +1,7 @@
 ---
 title: My first blog
 layout: post
-categories: ''
-tags: ''
+categories: blog
+tags: 随笔
 ---
 Hello world!
